@@ -6,8 +6,10 @@
 // @match         https://*.jeuxvideo.com/forums/*
 // @match         https://*.jeuxvideo.com/recherche/forums/*
 // @run-at        document-end
+// @updateURL     https://github.com/Valamy/Anonscript/raw/main/Anonscript.user.js
+// @downloadURL   https://github.com/Valamy/Anonscript/raw/main/Anonscript.user.js
 // @version       0.1
-// @license       BSD
+// @license       GPLv3
 // ==/UserScript==
 
     document.querySelectorAll("a.bloc-pseudo-msg.text-user").forEach((elem) => console.log(elem.innerText = 'Kheynon'));
